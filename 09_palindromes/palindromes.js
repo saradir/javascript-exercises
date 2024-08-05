@@ -9,11 +9,9 @@ const palindromes = function (str) {
     });
 
     const reversedStr = newstr.map((item) => (item)).reverse();
-    //console.log(reversedStr, newstr);
     return reversedStr.join('') === newstr.join('');
 };
 
-//palindromes('racecar!');
 
 // Do not edit below this line
 module.exports = palindromes;
